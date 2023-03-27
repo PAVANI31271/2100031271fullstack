@@ -1,25 +1,3 @@
-# Bloglist frontend
+# Solutions for part 7 exercises
 
-In this exercise, we will now create a frontend for the bloglist backend we created in the last part.
-A login functionnality is also implemented for restricting the possibility to view and create blogs only by authenticated users. We assume that a user already exists with the good credentials.
-
-Since the objective of this part is to test the react app, unit tests and end-to-end (E2E) tests with cypress are also implemented.
-
-## Start the application locally
-
-To start an application:
-
-```bash
-# First, you need to start the backend, to do so, head to the part4. Everything is explained in the README
-
-# Install dependancies
-$ npm install
-
-# Start the frontend application
-$ npm start
-
-# For running E2E tests
-$ npm run cypress:open        # Then, click on run all specs
-```
-
-You can then access the app on : http://localhost:3000/
+The seventh part of the course touches on several different themes. First, we'll get familiar with React router. React router helps us divide the application into different views that are shown based on the URL in the browser's address bar. After this, we'll look at a few more ways to add CSS-styles to React applications. During the entire course we've used create-react-app to generate the body of our applications. This time we'll take a look under the hood: we'll learn how Webpack works and how we can use it to configure the application ourselves. We shall also have a look on hook-functions and how to define a custom hook.
